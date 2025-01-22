@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
         '/get-started': (context) => const GetStartedScreen(),
         '/signin': (context) => SignInScreen(),
         '/signup': (context) => SignUpScreen(),
-        '/home': (context) => const HomePage(), //Saje Test
+        '/home': (context) => const HomePage(),
       },
     );
   }
