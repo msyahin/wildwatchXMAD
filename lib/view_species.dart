@@ -180,7 +180,7 @@ class _ViewSpeciesPageState extends State<ViewSpeciesPage> {
                           Container(
                             padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
                             decoration: BoxDecoration(
-                              color: status == 'Endangered' ? Colors.red : Colors.green,
+                              color: status == 'Endangered' ? Colors.red : status == 'Vulnerable' ? Colors.orange : Colors.green,
                               borderRadius: BorderRadius.circular(12),
                             ),
                             child: Text(

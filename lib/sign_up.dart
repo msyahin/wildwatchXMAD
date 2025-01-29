@@ -166,37 +166,6 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: Colors.grey),
               ),
               const SizedBox(height: 20),
-              // Add social media sign-up buttons as needed
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  // Google Button (Placeholder)
-                  Container(
-                    width: 50,
-                    height: 50,
-                    decoration: BoxDecoration(
-                      shape: BoxShape.circle,
-                      color: Colors.white,
-                      boxShadow: [
-                        BoxShadow(
-                          color: Colors.grey.withOpacity(0.3),
-                          spreadRadius: 2,
-                          blurRadius: 5,
-                          offset: const Offset(0, 3),
-                        ),
-                      ],
-                    ),
-                    child: IconButton(
-                      icon: Image.asset('assets/google_logo.png'),
-                      iconSize: 30,
-                      onPressed: () {
-                        // Handle Google Sign Up
-                      },
-                    ),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 20),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [

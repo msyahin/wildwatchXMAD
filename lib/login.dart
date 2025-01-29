@@ -90,13 +90,6 @@ class _SignInScreenState extends State<SignInScreen> {
               const SizedBox(height: 8),
               Align(
                 alignment: Alignment.centerRight,
-                child: TextButton(
-                  onPressed: () {},
-                  child: const Text(
-                    'Forgot password?',
-                    style: TextStyle(color: Colors.grey, fontSize: 14),
-                  ),
-                ),
               ),
               const SizedBox(height: 20),
               SizedBox(
@@ -127,36 +120,6 @@ class _SignInScreenState extends State<SignInScreen> {
               ),
               const SizedBox(height: 20),
               // Add social media login buttons as needed
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  // Google Button (Placeholder)
-                  Container(
-                    width: 50,
-                    height: 50,
-                    decoration: BoxDecoration(
-                      shape: BoxShape.circle,
-                      color: Colors.white,
-                      boxShadow: [
-                        BoxShadow(
-                          color: Colors.grey.withOpacity(0.3),
-                          spreadRadius: 2,
-                          blurRadius: 5,
-                          offset: const Offset(0, 3),
-                        ),
-                      ],
-                    ),
-                    child: IconButton(
-                      icon: Image.asset('assets/google_logo.png'),
-                      iconSize: 30,
-                      onPressed: () {
-                        // Handle Google login
-                      },
-                    ),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 20),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
