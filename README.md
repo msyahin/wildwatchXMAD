@@ -14,18 +14,18 @@ Objective
 6. Ensure a User-Friendly Experience – Develop an intuitive and efficient interface for seamless exploration and discovery of animal species.
 
 Summary
-Animal Trivia is an interactive app that helps users discover and learn about different animal species. Users can search for mammals, reptiles, birds, and other animals. The app also uses image recognition technology, allowing users to scan or upload pictures to identify animals easily. In addition, a geolocation API helps users check where certain animals live and their population in different areas. This app also includes fun quizzes to test knowledge about animal behaviors, habitats, and unique traits.
+- Animal Trivia is an interactive app that helps users discover and learn about different animal species. Users can search for mammals, reptiles, birds, and other animals. The app also uses image recognition technology, allowing users to scan or upload pictures to identify animals easily. In addition, a geolocation API helps users check where certain animals live and their population in different areas. This app also includes fun quizzes to test knowledge about animal behaviors, habitats, and unique traits.
 With a simple and user-friendly design, Animal Trivia is a great tool for nature lovers, students, and researchers. The app makes learning about wildlife fun and easy while encouraging people to care for and protect animals. By using technology for animal identification and tracking, Animal Trivia helps users connect with nature in an exciting way.
 
 About this project
-This project is continuous FYP project with one of our team member. The app's functionality is built around several core features. The main feature of the app is the ability to detect animals by scanning or uploading pictures. Using image recognition technology, users can either take a photo with their device's camera or upload an existing image, and the app will analyze it to identify the species.
+- This project is continuous FYP project with one of our team member. The app's functionality is built around several core features. The main feature of the app is the ability to detect animals by scanning or uploading pictures. Using image recognition technology, users can either take a photo with their device's camera or upload an existing image, and the app will analyze it to identify the species.
 The app also includes a geolocation feature powered by a geocoding API, which allows users to flag and view animal locations on a map. This feature helps users understand where specific species are commonly found and track their populations. The population tracker provides real-time data on animal populations, highlighting endangered species and raising awareness about conservation efforts.
 The app includes an animal trivia section with quizzes and challenges that test users' knowledge about animals, their behaviors, and unique traits. 
 
 Our project member consist of 3 people and each has its own tasks.
-Syahin - Image Recognition and Animal Detection, Animal discovery
-Zikry - Animal Quiz, design and implement quiz 
-Fadhilah - Geolocation, Population Tracker, and Trivia
+1. Syahin - Image Recognition and Animal Detection, Animal discovery
+2. Zikry - Animal Quiz, design and implement quiz
+3. Fadhilah - Geolocation, Population Tracker, and Trivia
 
 We use Git/GitHub for version control and collaboration. Each member work on their own branch and merge changes into the main branch after testing. For running the app, 'Run flutter pub get' to install dependencies then 'flutter run' to test the app on a connected device or emulator.
 
