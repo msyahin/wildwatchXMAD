@@ -35,10 +35,7 @@ Flow of the app:
 3. quiz feature where users can test their knowledge about animals. Trivia questions about various animal behaviors, facts, and unique traits are presented, making learning fun and interactive. 
 4. When user click on the flag location, the screen will display  the location of an animal’s population on the map. This feature enables users to track where a particular species is found geographically. 
 
-![Home Page](https://github.com/user-attachments/assets/44a77f49-8cfe-4d0b-893f-7b70de47fa4b)
-![Scan Tiger](https://github.com/user-attachments/assets/9f41dcc0-2fff-43d4-b5e0-ae014633a129)
-![Tiger](https://github.com/user-attachments/assets/5bf6e32d-e123-4b55-9742-d61cd7fb4001)
-![quiz button display](https://github.com/user-attachments/assets/3fb25ff0-f631-4611-a2ca-dc3d7d0c78b2)
-![Quiz Trivia](https://github.com/user-attachments/assets/655856dd-ad98-4c86-b870-7d7563932084)
-![Quiz Trivia1](https://github.com/user-attachments/assets/e0b42af7-81c7-4a30-beed-2d44ab7d9140)
-![animal location](https://github.com/user-attachments/assets/49f7f8fe-6081-4695-9b21-f4d42887ebe3)
+Below is the snapshots result of the app:
+
+
+[Screenshot.zip](https://github.com/user-attachments/files/18602101/Screenshot.zip)
