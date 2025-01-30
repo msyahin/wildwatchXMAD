@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "775294516498",
+    "project_id": "wildwatch-5d278",
+    "storage_bucket": "wildwatch-5d278.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775294516498:android:c81e56f8861c89a1dc47cb",
+        "android_client_info": {
+          "package_name": "com.example.wildwatch_take4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjmn0cOZe7LYdtU8fAdWhdjtlSMojOHZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

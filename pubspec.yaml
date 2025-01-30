@@ -1,0 +1,201 @@
+name: wildwatch_take4
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  image_picker: ^0.8.5+3
+  tflite_flutter: ^0.11.0
+  image: ^4.1.3
+  audioplayers: ^6.1.0
+  path_provider: ^2.0.12
+  smooth_page_indicator: ^1.2.0+3
+  icons_plus: ^5.0.0
+  camera: ^0.10.0+1
+  firebase_core: ^3.8.0
+  firebase_auth: ^5.3.3
+  cloud_firestore: ^5.5.0
+  geolocator: ^13.0.2
+  intl: ^0.19.0
+  http: ^1.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/quiz_data.json
+    - assets/
+    - assets/avatar.jpg
+    - assets/birds.png
+    - assets/carnivore.png
+    - assets/herbivore.png
+    - assets/seafish.png
+    - assets/lion.jpg
+    - assets/koala.jpg
+    - assets/cheetah.jpg
+    - assets/elephant.jpg
+    - assets/panda.jpg
+    - assets/homewild.png
+    - assets/google_logo.png
+    - assets/facebook_logo.png
+    - assets/getstart1.jpg
+    - assets/wildlogo.png
+    - assets/audio/theme_song.mp3
+    - assets/audio/click_effect2.mp3
+    - assets/pandascan.png
+    - assets/mainpanda.png
+    - assets/panda_1.png
+    - assets/panda_2.png
+    - assets/panda_3.png
+    - assets/flaminggo2.png
+    - assets/desert.png
+    - assets/southafrica.png
+    - assets/flaminggo.png
+    - assets/amazon.png
+    - assets/arctic.png
+    - assets/savannah.png
+    - assets/mangrove.png
+    - assets/wetlands.png
+    - assets/redcrestedturaco.png
+    - assets/shoebill.png
+    - assets/whitestork.png
+    - assets/casuarius.png
+    - assets/sunbittern.png
+    - assets/kingpenguin.png
+    - assets/hamerkop.png
+    - assets/indianpeafowl.png
+    - assets/americanflamingo.png
+    - assets/annashummingbird.png
+    - assets/rainbowlorikeet.png
+    - assets/kingfisher.png
+    - assets/flams1.png
+    - assets/lions1.png
+    - assets/crocs1.png
+    - assets/shark2.png
+    - assets/frogs.png
+    - assets/bees.png
+    - assets/spiders.png
+    - assets/crabs.png
+    - assets/hornbill/hornbill.jpg
+    - assets/hornbill/hornbill1.jpg
+    - assets/hornbill/hornbill2.jpg
+    - assets/hornbill/hornbill3.jpg
+    - assets/hummingbird/hummingbird.jpg
+    - assets/hummingbird/hummingbird1.jpg
+    - assets/hummingbird/hummingbird2.jpg
+    - assets/hummingbird/hummingbird3.jpg
+    - assets/duck/duck.jpg
+    - assets/duck/duck1.jpg
+    - assets/duck/duck2.jpg
+    - assets/duck/duck3.jpg
+    - assets/albatross/albatross.jpg
+    - assets/albatross/albatross1.jpg
+    - assets/albatross/albatross2.jpg
+    - assets/albatross/albatross3.jpg
+    - assets/tiger/tiger.jpg
+    - assets/tiger/tiger1.jpg
+    - assets/tiger/tiger2.jpg
+    - assets/tiger/tiger3.jpg
+    - assets/cat/cat.jpg
+    - assets/cat/cat1.jpg
+    - assets/cat/cat2.jpg
+    - assets/cat/cat3.jpg
+    - assets/orangutan/orangutan.jpg
+    - assets/orangutan/orangutan1.jpg
+    - assets/orangutan/orangutan2.jpg
+    - assets/orangutan/orangutan3.jpg
+    - assets/dog/dog.jpg
+    - assets/dog/dog1.jpg
+    - assets/dog/dog2.jpg
+    - assets/dog/dog3.jpg
+    - assets/crocodile/crocodile.jpg
+    - assets/crocodile/crocodile1.jpg
+    - assets/crocodile/crocodile2.jpg
+    - assets/crocodile/crocodile3.jpg
+    - assets/lizard/lizard.jpg
+    - assets/lizard/lizard1.jpg
+    - assets/lizard/lizard2.jpg
+    - assets/lizard/lizard3.jpg
+    - assets/turtle/turtle.jpg
+    - assets/turtle/turtle1.jpg
+    - assets/turtle/turtle2.jpg
+    - assets/turtle/turtle3.jpg
+    - assets/snake/snake.jpg
+    - assets/snake/snake1.jpg
+    - assets/snake/snake2.jpg
+    - assets/snake/snake3.jpg
+    - assets/shark/shark.jpg
+    - assets/shark/shark1.jpg
+    - assets/shark/shark2.jpg
+    - assets/shark/shark3.jpg
+    - assets/whale/whale.jpg
+    - assets/whale/whale1.jpg
+    - assets/whale/whale2.jpg
+    - assets/whale/whale3.jpg
+    - assets/goldfish/goldfish.jpg
+    - assets/goldfish/goldfish1.jpg
+    - assets/goldfish/goldfish2.jpg
+    - assets/goldfish/goldfish3.jpg
+    - assets/anemone/anemone.jpg
+    - assets/anemone/anemone1.jpg
+    - assets/anemone/anemone2.jpg
+    - assets/anemone/anemone3.jpg
+    - assets/grasshopper/grasshopper.jpg
+    - assets/grasshopper/grasshopper1.jpg
+    - assets/grasshopper/grasshopper2.jpg
+    - assets/grasshopper/grasshopper3.jpg
+    - assets/cicada/cicada.jpg
+    - assets/cicada/cicada1.jpg
+    - assets/cicada/cicada2.jpg
+    - assets/cicada/cicada3.jpg
+    - assets/beetle/beetle.jpg
+    - assets/beetle/beetle1.jpg
+    - assets/beetle/beetle2.jpg
+    - assets/beetle/beetle3.jpg
+    - assets/ladybug/ladybug.jpg
+    - assets/ladybug/ladybug1.jpg
+    - assets/ladybug/ladybug2.jpg
+    - assets/ladybug/ladybug3.jpg
+    - assets/frog/frog.jpg
+    - assets/frog/frog1.jpg
+    - assets/frog/frog2.jpg
+    - assets/frog/frog3.jpg
+    - assets/salamander/salamander.jpg
+    - assets/salamander/salamander1.jpg
+    - assets/salamander/salamander2.jpg
+    - assets/salamander/salamander3.jpg
+    - assets/spider/spider.jpg
+    - assets/spider/spider1.jpg
+    - assets/spider/spider2.jpg
+    - assets/spider/spider3.jpg
+    - assets/scorpion/scorpion.jpg
+    - assets/scorpion/scorpion1.jpg
+    - assets/scorpion/scorpion2.jpg
+    - assets/scorpion/scorpion3.jpg
+    - assets/crab/crab.jpg
+    - assets/crab/crab1.jpg
+    - assets/crab/crab2.jpg
+    - assets/crab/crab3.jpg
+    - assets/lobster/lobster.jpg
+    - assets/lobster/lobster1.jpg
+    - assets/lobster/lobster2.jpg
+    - assets/lobster/lobster3.jpg
+
+
+  fonts:
+    - family: Minecraft
+      fonts:
+        - asset: assets/fonts/Minecraft.ttf
+    

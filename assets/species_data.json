@@ -1,0 +1,367 @@
+[
+  {
+    "name": "Hornbill",
+    "status": "Endangered",
+    "scientificName": "Bucerotidae",
+    "description": "Hornbills are tropical birds known for their long, curved beaks and unique casque on top of their beak.",
+    "location": "Borneo, Malaysia",
+    "diet": "Omnivore",
+    "headerImage": "assets/hornbill/hornbill.jpg",
+    "images": [
+      "assets/hornbill/hornbill1.jpg",
+      "assets/hornbill/hornbill2.jpg",
+      "assets/hornbill/hornbill3.jpg"
+    ]
+  },
+  {
+    "name": "Hummingbird",
+    "status": "Least Concern",
+    "scientificName": "Trochilidae",
+    "description": "Hummingbirds are small, colorful birds known for their ability to hover in mid-air by rapidly flapping their wings.",
+    "location": "Americas",
+    "diet": "Nectar",
+    "headerImage": "assets/hummingbird/hummingbird.jpg",
+    "images": [
+      "assets/hummingbird/hummingbird1.jpg",
+      "assets/hummingbird/hummingbird2.jpg",
+      "assets/hummingbird/hummingbird3.jpg"
+    ]
+  },
+  {
+    "name": "Duck",
+    "status": "Least Concern",
+    "scientificName": "Anatidae",
+    "description": "Ducks are waterfowl birds commonly found in freshwater habitats. They are known for their broad bills and webbed feet.",
+    "location": "Worldwide",
+    "diet": "Omnivore",
+    "headerImage": "assets/duck/duck.jpg",
+    "images": [
+      "assets/duck/duck1.jpg",
+      "assets/duck/duck2.jpg",
+      "assets/duck/duck3.jpg"
+    ]
+  },
+  {
+    "name": "Albatross",
+    "status": "Vulnerable",
+    "scientificName": "Diomedeidae",
+    "description": "Albatrosses are large seabirds capable of flying long distances with minimal effort, often gliding over oceans.",
+    "location": "Southern Hemisphere",
+    "diet": "Carnivore",
+    "headerImage": "assets/albatross/albatross.jpg",
+    "images": [
+      "assets/albatross/albatross1.jpg",
+      "assets/albatross/albatross2.jpg",
+      "assets/albatross/albatross3.jpg"
+    ]
+  },
+  {
+    "name": "Tiger",
+    "status": "Endangered",
+    "scientificName": "Panthera tigris",
+    "description": "Tigers are the largest cat species, known for their orange coats with black stripes.",
+    "location": "Asia",
+    "diet": "Carnivore",
+    "headerImage": "assets/tiger/tiger.jpg",
+    "images": [
+      "assets/tiger/tiger1.jpg",
+      "assets/tiger/tiger2.jpg",
+      "assets/tiger/tiger3.jpg"
+    ]
+  },
+  {
+    "name": "Cat",
+    "status": "Domesticated",
+    "scientificName": "Felis catus",
+    "description": "Cats are small, domesticated carnivorous mammals often kept as pets.",
+    "location": "Worldwide",
+    "diet": "Carnivore",
+    "headerImage": "assets/cat/cat.jpg",
+    "images": [
+      "assets/cat/cat1.jpg",
+      "assets/cat/cat2.jpg",
+      "assets/cat/cat3.jpg"
+    ]
+  },
+  {
+    "name": "Orangutan",
+    "status": "Endangered",
+    "scientificName": "Pongo",
+    "description": "Orangutans are great apes known for their reddish-brown fur and intelligence.",
+    "location": "Borneo, Sumatra",
+    "diet": "Herbivore",
+    "headerImage": "assets/orangutan/orangutan.jpg",
+    "images": [
+      "assets/orangutan/orangutan1.jpg",
+      "assets/orangutan/orangutan2.jpg",
+      "assets/orangutan/orangutan3.jpg"
+    ]
+  },
+  {
+    "name": "Dog",
+    "status": "Domesticated",
+    "scientificName": "Canis lupus familiaris",
+    "description": "Dogs are domesticated mammals known as loyal companions to humans.",
+    "location": "Worldwide",
+    "diet": "Omnivore",
+    "headerImage": "assets/dog/dog.jpg",
+    "images": [
+      "assets/dog/dog1.jpg",
+      "assets/dog/dog2.jpg",
+      "assets/dog/dog3.jpg"
+    ]
+  },
+  {
+    "name": "Crocodile",
+    "status": "Least Concern",
+    "scientificName": "Crocodylidae",
+    "description": "Crocodiles are large aquatic reptiles known for their strong jaws and armored skin.",
+    "location": "Tropics",
+    "diet": "Carnivore",
+    "headerImage": "assets/crocodile/crocodile.jpg",
+    "images": [
+      "assets/crocodile/crocodile1.jpg",
+      "assets/crocodile/crocodile2.jpg",
+      "assets/crocodile/crocodile3.jpg"
+    ]
+  },
+  {
+    "name": "Lizard",
+    "status": "Least Concern",
+    "scientificName": "Lacertilia",
+    "description": "Lizards are reptiles with scaly skin, commonly found in warm environments.",
+    "location": "Worldwide",
+    "diet": "Omnivore",
+    "headerImage": "assets/lizard/lizard.jpg",
+    "images": [
+      "assets/lizard/lizard1.jpg",
+      "assets/lizard/lizard2.jpg",
+      "assets/lizard/lizard3.jpg"
+    ]
+  },
+  {
+    "name": "Turtle",
+    "status": "Endangered",
+    "scientificName": "Testudines",
+    "description": "Turtles are reptiles with protective shells, known for their longevity.",
+    "location": "Worldwide",
+    "diet": "Herbivore",
+    "headerImage": "assets/turtle/turtle.jpg",
+    "images": [
+      "assets/turtle/turtle1.jpg",
+      "assets/turtle/turtle2.jpg",
+      "assets/turtle/turtle3.jpg"
+    ]
+  },
+  {
+    "name": "Snake",
+    "status": "Least Concern",
+    "scientificName": "Serpentes",
+    "description": "Snakes are elongated reptiles known for their limbless bodies.",
+    "location": "Worldwide",
+    "diet": "Carnivore",
+    "headerImage": "assets/snake/snake.jpg",
+    "images": [
+      "assets/snake/snake1.jpg",
+      "assets/snake/snake2.jpg",
+      "assets/snake/snake3.jpg"
+    ]
+  },
+  {
+    "name": "Shark",
+    "status": "Vulnerable",
+    "scientificName": "Selachimorpha",
+    "description": "Sharks are cartilaginous fish known for their sharp teeth and predatory nature.",
+    "location": "Oceans Worldwide",
+    "diet": "Carnivore",
+    "headerImage": "assets/shark/shark.jpg",
+    "images": [
+      "assets/shark/shark1.jpg",
+      "assets/shark/shark2.jpg",
+      "assets/shark/shark3.jpg"
+    ]
+  },
+  {
+    "name": "Whale",
+    "status": "Vulnerable",
+    "scientificName": "Cetacea",
+    "description": "Whales are large marine mammals known for their intelligence and social behavior.",
+    "location": "Oceans Worldwide",
+    "diet": "Carnivore",
+    "headerImage": "assets/whale/whale.jpg",
+    "images": [
+      "assets/whale/whale1.jpg",
+      "assets/whale/whale2.jpg",
+      "assets/whale/whale3.jpg"
+    ]
+  },
+  {
+    "name": "Goldfish",
+    "status": "Domesticated",
+    "scientificName": "Carassius auratus",
+    "description": "Goldfish are small freshwater fish commonly kept as pets.",
+    "location": "Aquariums Worldwide",
+    "diet": "Omnivore",
+    "headerImage": "assets/goldfish/goldfish.jpg",
+    "images": [
+      "assets/goldfish/goldfish1.jpg",
+      "assets/goldfish/goldfish2.jpg",
+      "assets/goldfish/goldfish3.jpg"
+    ]
+  },
+  {
+    "name": "Anemone",
+    "status": "Least Concern",
+    "scientificName": "Actiniaria",
+    "description": "Sea anemones are predatory marine animals resembling flowers.",
+    "location": "Oceans Worldwide",
+    "diet": "Carnivore",
+    "headerImage": "assets/anemone/anemone.jpg",
+    "images": [
+      "assets/anemone/anemone1.jpg",
+      "assets/anemone/anemone2.jpg",
+      "assets/anemone/anemone3.jpg"
+    ]
+  },
+  {
+    "name": "Grasshopper",
+    "status": "Least Concern",
+    "scientificName": "Caelifera",
+    "description": "Grasshoppers are insects known for their strong hind legs used for jumping.",
+    "location": "Grasslands",
+    "diet": "Herbivore",
+    "headerImage": "assets/grasshopper/grasshopper.jpg",
+    "images": [
+      "assets/grasshopper/grasshopper1.jpg",
+      "assets/grasshopper/grasshopper2.jpg",
+      "assets/grasshopper/grasshopper3.jpg"
+    ]
+  },
+  {
+    "name": "Cicada",
+    "status": "Least Concern",
+    "scientificName": "Cicadoidea",
+    "description": "Cicadas are insects known for their loud mating calls and periodic emergence.",
+    "location": "Forests and Grasslands",
+    "diet": "Herbivore",
+    "headerImage": "assets/cicada/cicada.jpg",
+    "images": [
+      "assets/cicada/cicada1.jpg",
+      "assets/cicada/cicada2.jpg",
+      "assets/cicada/cicada3.jpg"
+    ]
+  },
+  {
+    "name": "Beetle",
+    "status": "Least Concern",
+    "scientificName": "Coleoptera",
+    "description": "Beetles are insects with hardened forewings, making up the largest group of animals.",
+    "location": "Worldwide",
+    "diet": "Omnivore",
+    "headerImage": "assets/beetle/beetle.jpg",
+    "images": [
+      "assets/beetle/beetle1.jpg",
+      "assets/beetle/beetle2.jpg",
+      "assets/beetle/beetle3.jpg"
+    ]
+  },
+  {
+    "name": "Ladybug",
+    "status": "Least Concern",
+    "scientificName": "Coccinellidae",
+    "description": "Ladybugs are small beetles often considered beneficial insects due to their consumption of pests.",
+    "location": "Forests and Gardens",
+    "diet": "Carnivore",
+    "headerImage": "assets/ladybug/ladybug.jpg",
+    "images": [
+      "assets/ladybug/ladybug1.jpg",
+      "assets/ladybug/ladybug2.jpg",
+      "assets/ladybug/ladybug3.jpg"
+    ]
+  },
+  {
+    "name": "Frog",
+    "status": "Least Concern",
+    "scientificName": "Anura",
+    "description": "Frogs are amphibians known for their jumping abilities, croaking sounds, and permeable skin.",
+    "location": "Wetlands",
+    "diet": "Carnivore",
+    "headerImage": "assets/frog/frog.jpg",
+    "images": [
+      "assets/frog/frog1.jpg",
+      "assets/frog/frog2.jpg",
+      "assets/frog/frog3.jpg"
+    ]
+  },
+  {
+    "name": "Salamander",
+    "status": "Vulnerable",
+    "scientificName": "Caudata",
+    "description": "Salamanders are amphibians with slender bodies and long tails.",
+    "location": "Forests and Wetlands",
+    "diet": "Carnivore",
+    "headerImage": "assets/salamander/salamander.jpg",
+    "images": [
+      "assets/salamander/salamander1.jpg",
+      "assets/salamander/salamander2.jpg",
+      "assets/salamander/salamander3.jpg"
+    ]
+  },
+  {
+    "name": "Spider",
+    "status": "Least Concern",
+    "scientificName": "Araneae",
+    "description": "Spiders are arachnids known for their silk-spinning abilities to create webs.",
+    "location": "Worldwide",
+    "diet": "Carnivore",
+    "headerImage": "assets/spider/spider.jpg",
+    "images": [
+      "assets/spider/spider1.jpg",
+      "assets/spider/spider2.jpg",
+      "assets/spider/spider3.jpg"
+    ]
+  },
+  {
+    "name": "Scorpion",
+    "status": "Least Concern",
+    "scientificName": "Scorpiones",
+    "description": "Scorpions are arachnids known for their pincers and venomous stingers.",
+    "location": "Deserts and Forests",
+    "diet": "Carnivore",
+    "headerImage": "assets/scorpion/scorpion.jpg",
+    "images": [
+      "assets/scorpion/scorpion1.jpg",
+      "assets/scorpion/scorpion2.jpg",
+      "assets/scorpion/scorpion3.jpg"
+    ]
+  },
+  {
+    "name": "Crab",
+    "status": "Least Concern",
+    "scientificName": "Brachyura",
+    "description": "Crabs are crustaceans with a thick exoskeleton and a pair of pincers.",
+    "location": "Oceans and Beaches",
+    "diet": "Omnivore",
+    "headerImage": "assets/crab/crab.jpg",
+    "images": [
+      "assets/crab/crab1.jpg",
+      "assets/crab/crab2.jpg",
+      "assets/crab/crab3.jpg"
+    ]
+  },
+  {
+    "name": "Lobster",
+    "status": "Least Concern",
+    "scientificName": "Nephropidae",
+    "description": "Lobsters are marine crustaceans with long bodies and muscular tails.",
+    "location": "Oceans",
+    "diet": "Carnivore",
+    "headerImage": "assets/lobster/lobster.jpg",
+    "images": [
+      "assets/lobster/lobster1.jpg",
+      "assets/lobster/lobster2.jpg",
+      "assets/lobster/lobster3.jpg"
+    ]
+  }
+]
+
