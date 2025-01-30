@@ -1,0 +1,523 @@
+{
+    "tiger": [
+      {
+        "question": "What is the largest species of tiger?",
+        "options": ["Siberian Tiger", "Bengal Tiger", "Indochinese Tiger", "Malayan Tiger"],
+        "answer": "Siberian Tiger",
+        "explanation": "The Siberian tiger is the largest species of tiger."
+      },
+      {
+        "question": "How many tiger species are there?",
+        "options": ["6", "5", "7", "4"],
+        "answer": "6",
+        "explanation": "There are 6 species of tigers currently recognized."
+      },
+      {
+        "question": "Where do most tigers live in the wild?",
+        "options": ["Africa", "Asia", "Australia", "North America"],
+        "answer": "Asia",
+        "explanation": "Most tigers live in Asia, primarily in forests and grasslands."
+      }
+    ],
+    "orangutan": [
+      {
+        "question": "What is the primary habitat of orangutans?",
+        "options": ["Tropical rainforests", "Savannas", "Deserts", "Mountain ranges"],
+        "answer": "Tropical rainforests",
+        "explanation": "Orangutans live in the tropical rainforests of Southeast Asia, primarily in Borneo and Sumatra."
+      },
+      {
+        "question": "What is the main diet of orangutans?",
+        "options": ["Meat", "Leaves and insects", "Fruits and plants", "Nuts and seeds"],
+        "answer": "Fruits and plants",
+        "explanation": "Orangutans are primarily frugivores, feeding on a variety of fruits, leaves, and other plant matter."
+      },
+      {
+        "question": "Which of the following is a major threat to orangutan populations?",
+        "options": ["Poaching", "Habitat loss due to deforestation", "Climate change", "All of the above"],
+        "answer": "All of the above",
+        "explanation": "Orangutans face several threats, including poaching, habitat destruction from deforestation, and climate change."
+      }
+    ],
+      "albatross": [
+        {
+          "question": "What is the average wingspan of an albatross?",
+          "options": ["6 feet", "8 feet", "10 feet", "11-12 feet"],
+          "answer": "11-12 feet",
+          "explanation": "Albatrosses have the largest wingspan of any bird, measuring up to 12 feet, which helps them glide over vast ocean distances."
+        },
+        {
+          "question": "Where do albatrosses typically spend most of their time?",
+          "options": ["Forests", "Deserts", "Oceans", "Grasslands"],
+          "answer": "Oceans",
+          "explanation": "Albatrosses are seabirds that spend most of their lives gliding over oceans, coming to land only to breed."
+        },
+        {
+          "question": "What is a major threat to albatross populations?",
+          "options": ["Overfishing", "Habitat destruction", "Bycatch in fishing nets", "Climate change"],
+          "answer": "Bycatch in fishing nets",
+          "explanation": "Albatrosses are often accidentally caught in fishing nets while trying to catch fish, which poses a significant threat to their population."
+        }
+      ],
+      "anemone": [
+          {
+            "question": "What is the primary role of sea anemones in marine ecosystems?",
+            "options": ["Producing oxygen", "Filtering water", "Providing shelter for fish", "Hunting large prey"],
+            "answer": "Providing shelter for fish",
+            "explanation": "Sea anemones provide shelter and protection for various marine creatures, including clownfish, forming symbiotic relationships with them."
+          },
+          {
+            "question": "How do sea anemones capture their prey?",
+            "options": ["Shooting out spikes", "Trapping in mucus", "Using tentacles with venom", "Chasing with speed"],
+            "answer": "Using tentacles with venom",
+            "explanation": "Sea anemones use their tentacles, which contain specialized stinging cells called nematocysts, to paralyze and capture prey."
+          },
+          {
+            "question": "What unique ability do some sea anemones have?",
+            "options": ["Regenerating lost parts", "Bioluminescence", "Changing color rapidly", "Living on land"],
+            "answer": "Regenerating lost parts",
+            "explanation": "Some sea anemones can regenerate lost body parts, allowing them to recover from damage or even reproduce asexually."
+          }
+        ],
+        "beetle": [
+          {
+            "question": "What is the primary diet of beetles?",
+            "options": ["Small insects", "Tree bark", "Leaves", "Fungi"],
+            "answer": "Leaves",
+            "explanation": "Many beetles are herbivores that primarily feed on leaves, though some species may consume fungi or small insects."
+          },
+          {
+            "question": "How do beetles protect themselves from predators?",
+            "options": ["Burrowing underground", "Camouflage", "Releasing toxic chemicals", "Playing dead"],
+            "answer": "Releasing toxic chemicals",
+            "explanation": "Some beetles, like bombardier beetles, release toxic chemicals as a defense mechanism against predators."
+          },
+          {
+            "question": "What unique feature do beetles have compared to other insects?",
+            "options": ["Hardened forewings", "Multiple pairs of antennae", "Ability to regenerate limbs", "Transparent wings"],
+            "answer": "Hardened forewings",
+            "explanation": "Beetles have hardened forewings called elytra, which protect their delicate hindwings and body."
+          }
+        ],
+        "cat": [
+          {
+              "question": "What is the average lifespan of a domestic cat?",
+              "options": ["5-7 years", "8-10 years", "12-16 years", "20+ years"],
+              "answer": "12-16 years",
+              "explanation": "On average, domestic cats live between 12 and 16 years, though some can live even longer with proper care."
+          },
+          {
+              "question": "What is a cat’s favorite activity?",
+              "options": ["Sleeping", "Climbing trees", "Hunting", "Swimming"],
+              "answer": "Sleeping",
+              "explanation": "Cats are known for sleeping a lot, typically around 12-16 hours a day, as they are crepuscular animals."
+          },
+          {
+              "question": "What is the purpose of a cat’s purring?",
+              "options": ["To communicate with other cats", "To express happiness or contentment", "To scare away predators", "To cool down their body temperature"],
+              "answer": "To express happiness or contentment",
+              "explanation": "Purring is often associated with a cat feeling safe, happy, or content, though it can also occur when they are in pain or stressed."
+          }
+          ],
+         "cicada": [
+    {
+      "question": "What is the primary diet of cicadas?",
+      "options": ["Nectar", "Tree sap", "Insects", "Fruits"],
+      "answer": "Tree sap",
+      "explanation": "Cicadas primarily feed on tree sap, which they extract using their specialized mouthparts."
+    },
+    {
+      "question": "How do cicadas produce their characteristic sound?",
+      "options": ["By vibrating their abdomen", "By snapping their legs", "By rubbing their wings together", "By clicking their mandibles"],
+      "answer": "By vibrating their abdomen",
+      "explanation": "Male cicadas produce their loud calls by vibrating special membranes called tymbals on their abdomen."
+    },
+    {
+      "question": "What adaptation helps cicadas avoid predators?",
+      "options": ["Playing dead", "Venomous bite", "Camouflage", "High jumping ability"],
+      "answer": "Camouflage",
+      "explanation": "Cicadas use their natural coloration to blend into tree bark and leaves, making it harder for predators to spot them."
+    }
+  ],
+  
+   "crab": [
+    {
+      "question": "What is the primary habitat of most crabs?",
+      "options": ["Oceans", "Forests", "Deserts", "Freshwater lakes"],
+      "answer": "Oceans",
+      "explanation": "Most crabs live in ocean environments, although some species also inhabit freshwater areas and land."
+    },
+    {
+      "question": "How do crabs move?",
+      "options": ["By swimming", "By flying", "By walking sideways", "By crawling forward"],
+      "answer": "By walking sideways",
+      "explanation": "Crabs are known for their sideways walking motion, which is facilitated by their unique leg structure."
+    },
+    {
+      "question": "What do crabs primarily eat?",
+      "options": ["Plankton", "Algae", "Small fish", "Omnivorous diet, including plants and animals"],
+      "answer": "Omnivorous diet, including plants and animals",
+      "explanation": "Crabs are opportunistic feeders and eat a variety of things, including plants, small fish, and detritus."
+    }
+  ],
+  "crocodile": [
+    {
+      "question": "What is the largest species of crocodile?",
+      "options": ["Nile Crocodile", "Saltwater Crocodile", "American Crocodile", "Cuban Crocodile"],
+      "answer": "Saltwater Crocodile",
+      "explanation": "The Saltwater Crocodile is the largest living reptile, with some individuals growing up to 23 feet long."
+    },
+    {
+      "question": "Where do crocodiles primarily live?",
+      "options": ["Rainforests", "Freshwater rivers and lakes", "Deserts", "Mountains"],
+      "answer": "Freshwater rivers and lakes",
+      "explanation": "Crocodiles are typically found in freshwater habitats such as rivers, lakes, and wetlands, though some species also live in saltwater."
+    },
+    {
+      "question": "How long can crocodiles hold their breath underwater?",
+      "options": ["5-10 minutes", "10-20 minutes", "30-45 minutes", "1 hour"],
+      "answer": "30-45 minutes",
+      "explanation": "Crocodiles can hold their breath underwater for up to 30-45 minutes, depending on the species and water temperature."
+    }
+  ],
+  "dog": [
+    {
+      "question": "What is the most popular dog breed in the United States?",
+      "options": ["German Shepherd", "Labrador Retriever", "Bulldog", "Poodle"],
+      "answer": "Labrador Retriever",
+      "explanation": "The Labrador Retriever has been the most popular dog breed in the U.S. for many years due to its friendly and loyal nature."
+    },
+    {
+      "question": "How many teeth does an adult dog have?",
+      "options": ["28", "32", "42", "36"],
+      "answer": "42",
+      "explanation": "Adult dogs typically have 42 teeth, which are used for chewing, tearing, and biting."
+    },
+    {
+      "question": "What is the average lifespan of a dog?",
+      "options": ["5-7 years", "8-12 years", "12-16 years", "16-20 years"],
+      "answer": "8-12 years",
+      "explanation": "On average, dogs live between 8 and 12 years, though this can vary greatly depending on the breed, size, and health."
+    }
+  ],
+  "duck": [
+    {
+      "question": "What type of feet do ducks have?",
+      "options": ["Clawed feet", "Long talons", "Webbed feet", "Long talons"],
+      "answer": "Webbed feet",
+      "explanation": "Ducks have webbed feet, which make them excellent swimmers by allowing them to paddle effectively in water."
+    },
+    {
+      "question": "What is a group of ducks called when they are on water?",
+      "options": ["Pod", "Raft", "Flock", "Waddle"],
+      "answer": "Raft",
+      "explanation": "A group of ducks on water is called a 'raft,' while on land, they are usually referred to as a 'flock.'"
+    },
+    {
+      "question": "Which of the following is a common migratory duck species?",
+      "options": ["Mallard", "Wood Duck", "Muscovy Duck", "Pekin Duck"],
+      "answer": "Mallard",
+      "explanation": "Mallards are highly migratory and are commonly found in wetlands across various continents during migration."
+    }
+  ],
+  "frog": [
+    {
+      "question": "What do frogs primarily use their long, powerful legs for?",
+      "options": ["Climbing trees", "Catching insects", "Swimming and jumping", "Walking long distances"],
+      "answer": "Swimming and jumping",
+      "explanation": "Frogs use their strong, muscular legs for jumping and swimming, allowing them to move quickly on land and in water."
+    },
+    {
+      "question": "How do frogs communicate?",
+      "options": ["By changing color", "By croaking", "By flashing lights", "By body language"],
+      "answer": "By croaking",
+      "explanation": "Frogs communicate with each other, especially during mating season, by croaking or calling out to attract mates."
+    },
+    {
+      "question": "What do most frogs eat?",
+      "options": ["Leaves", "Insects", "Other frogs", "Algae"],
+      "answer": "Insects",
+      "explanation": "Frogs are carnivores and primarily eat insects, using their long, sticky tongues to catch prey."
+    }
+  ],
+  "goldfish": [
+    {
+      "question": "How long can a goldfish live?",
+      "options": ["1-2 years", "Over 30 years", "5-10 years", "10-20 years"],
+      "answer": "Over 30 years",
+      "explanation": "With proper care, some goldfish have been known to live over 30 years, although the average lifespan is around 10-15 years in good conditions."
+    },
+    {
+      "question": "What is a common myth about goldfish memory?",
+      "options": ["They can recognize their owners", "They have a 3-second memory", "They can solve simple puzzles", "They sleep with their eyes open"],
+      "answer": "They have a 3-second memory",
+      "explanation": "It is a myth that goldfish have a 3-second memory. Studies have shown they can remember things for months and even recognize their owners."
+    },
+    {
+      "question": "Why do goldfish change color?",
+      "options": ["Diet", "Water quality", "Light exposure", "Genetics"],
+      "answer": "Genetics",
+      "explanation": "Goldfish can change color due to genetic factors, but their pigments are also influenced by diet, water quality, and light exposure."
+    }
+  ],
+  "grasshopper": [
+    {
+      "question": "What is the primary diet of grasshoppers?",
+      "options": ["Insects", "Leaves and grass", "Fruits", "Nectar"],
+      "answer": "Leaves and grass",
+      "explanation": "Grasshoppers are herbivores that primarily feed on leaves, grass, and other plant materials."
+    },
+    {
+      "question": "How do grasshoppers produce their characteristic sound?",
+      "options": ["By rubbing their wings together", "By snapping their legs", "By clicking their mandibles", "By vibrating their abdomen"],
+      "answer": "By rubbing their wings together",
+      "explanation": "Grasshoppers create sounds, known as stridulation, by rubbing their wings or legs together to communicate or attract mates."
+    },
+    {
+      "question": "What adaptation helps grasshoppers escape predators?",
+      "options": ["Camouflage", "Venomous bite", "High jumping ability", "Playing dead"],
+      "answer": "High jumping ability",
+      "explanation": "Grasshoppers have powerful hind legs that allow them to jump long distances to escape predators."
+    }
+  ],
+  "hornbill": [
+    {
+      "question": "What is the most distinctive feature of a hornbill?",
+      "options": ["Curved beak with a casque", "Colorful feathers", "Long legs", "Large tail"],
+      "answer": "Curved beak with a casque",
+      "explanation": "Hornbills are known for their large, curved beaks topped with a casque, which helps amplify their calls."
+    },
+    {
+      "question": "In which regions are hornbills commonly found?",
+      "options": ["Africa and Asia", "North America and Europe", "Australia and South America", "Antarctica"],
+      "answer": "Africa and Asia",
+      "explanation": "Hornbills are primarily found in tropical forests of Africa and Asia, where they play a key role in seed dispersal."
+    },
+    {
+      "question": "What unique behavior do female hornbills exhibit during nesting?",
+      "options": ["They seal themselves inside tree cavities.", "They lay eggs in open fields.", "They share nests with other birds.", "They build nests using mud."],
+      "answer": "They seal themselves inside tree cavities.",
+      "explanation": "Female hornbills seal themselves inside tree cavities using mud and droppings to protect their eggs and rely on males to bring them food."
+    }
+  ],
+  "hummingbird": [
+    {
+      "question": "How fast can a hummingbird flap its wings?",
+      "options": ["5-10 times per second", "20-30 times per second", "50-80 times per second", "100-150 times per second"],
+      "answer": "50-80 times per second",
+      "explanation": "Hummingbirds can flap their wings up to 80 times per second, enabling them to hover and maneuver with incredible precision."
+    },
+    {
+      "question": "What is the primary food source for hummingbirds?",
+      "options": ["Insects", "Fruit", "Nectar", "Seeds"],
+      "answer": "Nectar",
+      "explanation": "Hummingbirds primarily feed on flower nectar, which provides them with the energy required for their rapid wing movement."
+    },
+    {
+      "question": "What unique flying ability do hummingbirds have?",
+      "options": ["Flying backward", "Gliding for hours", "Soaring at high altitudes", "Diving into water"],
+      "answer": "Flying backward",
+      "explanation": "Hummingbirds are the only birds capable of flying backward, thanks to their ball-and-socket wing joints."
+    }
+  ],
+  "ladybug": [
+    {
+      "question": "What is the primary role of ladybugs in nature?",
+      "options": ["Pollination", "Prey for birds", "Controlling pest populations", "Soil fertilization"],
+      "answer": "Controlling pest populations",
+      "explanation": "Ladybugs are important predators of pests like aphids, helping to keep plant-eating insects in check."
+    },
+    {
+      "question": "How do ladybugs reproduce?",
+      "options": ["Through laying eggs on leaves", "Through live birth", "By laying eggs in water", "By cloning themselves"],
+      "answer": "Through laying eggs on leaves",
+      "explanation": "Ladybugs lay their eggs on the underside of leaves where their larvae can find food like aphids."
+    },
+    {
+      "question": "How can ladybugs survive through the winter?",
+      "options": ["By migrating to warmer climates", "By going into hibernation", "By storing food in their bodies", "By growing a thicker shell"],
+      "answer": "By migrating to warmer climates",
+      "explanation": "Some ladybugs migrate to warmer regions or hibernate during the colder months to survive until spring."
+    }
+  ],
+  "lizard": [
+    {
+      "question": "What is the fastest species of lizard?",
+      "options": ["Green Iguana", "Collared Lizard", "Bearded Dragon", "Horned Lizard"],
+      "answer": "Collared Lizard",
+      "explanation": "The Collared Lizard is known for its incredible speed, capable of running up to 16 miles per hour."
+    },
+    {
+      "question": "Which part of a lizard’s body is capable of regenerating?",
+      "options": ["Tail", "Legs", "Eyes", "Ears"],
+      "answer": "Tail",
+      "explanation": "Many lizard species can regenerate their tails if they lose them, a process known as tail autotomy."
+    },
+    {
+      "question": "What is the primary diet of most lizards?",
+      "options": ["Fruits and plants", "Insects and small animals", "Fish and aquatic life", "Nectar and pollen"],
+      "answer": "Insects and small animals",
+      "explanation": "Most lizards are insectivores, feeding on a diet that includes insects, small animals, and other invertebrates."
+    }
+  ],
+  "lobster": [
+    {
+      "question": "What is a lobster’s most distinctive feature?",
+      "options": ["Large claws", "Bright blue shell", "Long legs", "Small eyes"],
+      "answer": "Large claws",
+      "explanation": "Lobsters are most famous for their large, powerful claws, which they use for defense, catching food, and communication."
+    },
+    {
+      "question": "How do lobsters protect themselves from predators?",
+      "options": ["By hiding in burrows", "By secreting a toxic fluid", "By changing color", "By flying away"],
+      "answer": "By hiding in burrows",
+      "explanation": "Lobsters protect themselves by retreating to burrows or crevices in the ocean floor where they can hide from predators."
+    },
+    {
+      "question": "What do lobsters use their antennae for?",
+      "options": ["To sense their environment", "To swim", "To communicate with other lobsters", "To catch prey"],
+      "answer": "To sense their environment",
+      "explanation": "Lobsters use their long antennae to feel and sense their surroundings, helping them navigate and detect food or predators."
+    }
+  ],
+  "salamander": [
+    {
+      "question": "Where do most salamanders live?",
+      "options": ["In trees", "In underground burrows", "In the ocean", "In wetland habitats"],
+      "answer": "In wetland habitats",
+      "explanation": "Salamanders are typically found in damp, moist environments such as wetlands, ponds, and forests, where they can keep their skin moist."
+    },
+    {
+      "question": "What is a unique feature of salamanders?",
+      "options": ["They can fly", "They have scales", "They can change colors", "They can regenerate lost limbs"],
+      "answer": "They can regenerate lost limbs",
+      "explanation": "One of the most remarkable features of salamanders is their ability to regenerate lost limbs, as well as other body parts like their tail."
+    },
+    {
+      "question": "What do most salamanders eat?",
+      "options": ["Plants", "Insects and small animals", "Fish", "Algae"],
+      "answer": "Insects and small animals",
+      "explanation": "Salamanders are carnivorous and feed on a variety of small animals, including insects, worms, and other invertebrates."
+    }
+  ],
+  "scorpion": [
+    {
+      "question": "What do scorpions primarily use their pincers for?",
+      "options": ["To communicate with other scorpions", "To defend against predators", "To catch prey", "To carry their young"],
+      "answer": "To catch prey",
+      "explanation": "Scorpions use their pincers to grasp and hold onto prey before delivering a venomous sting to immobilize it."
+    },
+    {
+      "question": "What is the primary defense mechanism of a scorpion?",
+      "options": ["Claws", "Venomous sting", "Sharp pincers", "Camouflage"],
+      "answer": "Venomous sting",
+      "explanation": "Scorpions use their venomous sting to defend themselves and capture prey, injecting venom to immobilize their target."
+    },
+    {
+      "question": "What is a scorpion’s venom used for?",
+      "options": ["To hunt and paralyze prey", "To deter predators", "To help them digest food", "To defend their territory"],
+      "answer": "To hunt and paralyze prey",
+      "explanation": "Scorpions use their venom to paralyze prey, making it easier to capture and consume."
+    }
+  ],
+  "shark": [
+    {
+      "question": "How many teeth can a shark have in its lifetime?",
+      "options": ["100-500", "1,000-5,000", "10,000-30,000", "50,000-100,000"],
+      "answer": "10,000-30,000",
+      "explanation": "Sharks continuously lose and replace their teeth, with some species going through tens of thousands of teeth in their lifetime."
+    },
+    {
+      "question": "What is the largest species of shark?",
+      "options": ["Great White Shark", "Hammerhead Shark", "Whale Shark", "Tiger Shark"],
+      "answer": "Whale Shark",
+      "explanation": "The Whale Shark is the largest shark species, growing up to 60 feet long and feeding primarily on plankton."
+    },
+    {
+      "question": "How do sharks detect prey in the water?",
+      "options": ["Sharp eyesight", "Electroreception", "Sensitive hearing", "All of the above"],
+      "answer": "All of the above",
+      "explanation": "Sharks use a combination of eyesight, electroreception (Ampullae of Lorenzini), and acute hearing to detect prey."
+    }
+  ],
+  "snake": [
+    {
+      "question": "What is the longest species of snake?",
+      "options": ["King Cobra", "Green Anaconda", "Reticulated Python", "Burmese Python"],
+      "answer": "Reticulated Python",
+      "explanation": "The Reticulated Python is the longest snake species, capable of growing up to 30 feet or more."
+    },
+    {
+      "question": "What do snakes primarily eat?",
+      "options": ["Fruits and vegetables", "Insects and small mammals", "Fish and aquatic life", "Nectar and pollen"],
+      "answer": "Insects and small mammals",
+      "explanation": "Snakes are carnivores, with most species feeding on a diet that includes insects, small mammals, birds, and sometimes reptiles."
+    },
+    {
+      "question": "Which sense do snakes rely on the most to track prey?",
+      "options": ["Vision", "Hearing", "Smell and heat detection", "Taste"],
+      "answer": "Smell and heat detection",
+      "explanation": "Snakes primarily use their sense of smell and the ability to detect heat through specialized organs like the pit organs to track their prey."
+    }
+  ],
+  "spider": [
+    {
+      "question": "What is the primary function of a spider’s web?",
+      "options": ["To trap prey", "To communicate with other spiders", "To store food", "To protect themselves from predators"],
+      "answer": "To trap prey",
+      "explanation": "Spiders spin webs to catch their prey, such as insects, which get stuck in the sticky threads."
+    },
+    {
+      "question": "How many legs do spiders have?",
+      "options": ["6", "8", "10", "12"],
+      "answer": "8",
+      "explanation": "Spiders belong to the arachnid class, which is characterized by having eight legs."
+    },
+    {
+      "question": "What is the main food source for most spiders?",
+      "options": ["Plants", "Insects", "Other spiders", "Small mammals"],
+      "answer": "Insects",
+      "explanation": "Most spiders feed on insects, which they catch using their webs or by actively hunting them."
+    }
+  ],
+  "turtle": [
+    {
+      "question": "What is the average lifespan of a turtle?",
+      "options": ["10-20 years", "30-50 years", "50-100 years", "100-150 years"],
+      "answer": "50-100 years",
+      "explanation": "Turtles can live for many decades, with some species reaching 50-100 years or more, depending on the environment and care."
+    },
+    {
+      "question": "Which type of turtle is known for migrating thousands of miles?",
+      "options": ["Box Turtle", "Sea Turtle", "Snapping Turtle", "Painted Turtle"],
+      "answer": "Sea Turtle",
+      "explanation": "Sea turtles are known for their long migrations across oceans, sometimes traveling thousands of miles to lay eggs."
+    },
+    {
+      "question": "What do turtles primarily eat?",
+      "options": ["Fruits and vegetables", "Small animals", "Plants, algae, and invertebrates", "Insects and fish"],
+      "answer": "Plants, algae, and invertebrates",
+      "explanation": "Turtles are generally herbivores or omnivores, eating a diet of plants, algae, and small invertebrates, depending on their species."
+    }
+  ],
+  "whale": [
+    {
+      "question": "What is the largest species of whale?",
+      "options": ["Humpback Whale", "Blue Whale", "Sperm Whale", "Fin Whale"],
+      "answer": "Blue Whale",
+      "explanation": "The Blue Whale is the largest animal on Earth, reaching lengths of up to 100 feet and weighing up to 200 tons."
+    },
+    {
+      "question": "What do whales primarily eat?",
+      "options": ["Fish", "Plankton", "Seaweed", "Crustaceans"],
+      "answer": "Plankton",
+      "explanation": "Many whale species, like the Blue Whale, feed primarily on plankton and small krill by filtering water through their baleen plates."
+    },
+    {
+      "question": "How do whales communicate with each other?",
+      "options": ["Body language", "Echolocation", "Songs and calls", "All of the above"],
+      "answer": "All of the above",
+      "explanation": "Whales communicate through a combination of body language, echolocation, and complex vocalizations known as songs and calls."
+    }
+  ]  
+  }

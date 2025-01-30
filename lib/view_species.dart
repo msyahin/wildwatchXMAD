@@ -1,6 +1,8 @@
+import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'quiz_page.dart';
 
 class ViewSpeciesPage extends StatefulWidget {
   final Map<String, dynamic> speciesData;
@@ -89,13 +91,40 @@ class _ViewSpeciesPageState extends State<ViewSpeciesPage> {
     }
   }
 
-  void _showFullScreenGallery(BuildContext context, List<String> images, int initialIndex) {
+  void _showFullScreenGallery(
+      BuildContext context, List<String> images, int initialIndex) {
     Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (context) => FullScreenGallery(images: images, initialIndex: initialIndex),
+        builder: (context) =>
+            FullScreenGallery(images: images, initialIndex: initialIndex),
       ),
     );
+  }
+
+  /// Load quiz data from JSON and navigate to quiz page
+  void _startTriviaQuiz() async {
+    String data = await DefaultAssetBundle.of(context)
+        .loadString('assets/quiz_data.json');
+    Map<String, dynamic> quizData = jsonDecode(data);
+
+    String speciesName = widget.speciesData['name'].toLowerCase();
+
+    if (quizData.containsKey(speciesName)) {
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => QuizPage(
+            animalName: speciesName,
+            questions: quizData[speciesName],
+          ),
+        ),
+      );
+    } else {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text("No quiz available for this species.")),
+      );
+    }
   }
 
   @override
@@ -127,6 +156,20 @@ class _ViewSpeciesPageState extends State<ViewSpeciesPage> {
             },
           ),
         ),
+        actions: [
+          // Trivia Icon Button
+          Container(
+            margin: const EdgeInsets.all(8.0),
+            decoration: const BoxDecoration(
+              color: Colors.white,
+              shape: BoxShape.circle,
+            ),
+            child: IconButton(
+              icon: const Icon(Icons.quiz, color: Colors.black),
+              onPressed: _startTriviaQuiz,
+            ),
+          ),
+        ],
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -178,9 +221,14 @@ class _ViewSpeciesPageState extends State<ViewSpeciesPage> {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           Container(
-                            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                            padding: const EdgeInsets.symmetric(
+                                horizontal: 12, vertical: 4),
                             decoration: BoxDecoration(
-                              color: status == 'Endangered' ? Colors.red : status == 'Vulnerable' ? Colors.orange : Colors.green,
+                              color: status == 'Endangered'
+                                  ? Colors.red
+                                  : status == 'Vulnerable'
+                                      ? Colors.orange
+                                      : Colors.green,
                               borderRadius: BorderRadius.circular(12),
                             ),
                             child: Text(
@@ -193,7 +241,8 @@ class _ViewSpeciesPageState extends State<ViewSpeciesPage> {
                           ),
                           const SizedBox(height: 4),
                           Container(
-                            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                            padding: const EdgeInsets.symmetric(
+                                horizontal: 12, vertical: 4),
                             decoration: BoxDecoration(
                               color: Colors.lightGreenAccent,
                               borderRadius: BorderRadius.circular(12),
@@ -208,7 +257,8 @@ class _ViewSpeciesPageState extends State<ViewSpeciesPage> {
                           ),
                           const SizedBox(height: 4),
                           Container(
-                            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                            padding: const EdgeInsets.symmetric(
+                                horizontal: 12, vertical: 4),
                             decoration: BoxDecoration(
                               color: Colors.lightGreen[100],
                               borderRadius: BorderRadius.circular(12),
@@ -255,7 +305,8 @@ class _ViewSpeciesPageState extends State<ViewSpeciesPage> {
                       int index = entry.key;
                       String imgPath = entry.value;
                       return GestureDetector(
-                        onTap: () => _showFullScreenGallery(context, images, index),
+                        onTap: () =>
+                            _showFullScreenGallery(context, images, index),
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(12),
                           child: Image.asset(
@@ -274,8 +325,9 @@ class _ViewSpeciesPageState extends State<ViewSpeciesPage> {
                     child: ElevatedButton(
                       onPressed: _toggleSave,
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: isSaved ? Colors.redAccent : Colors.greenAccent,
-                        padding: const EdgeInsets.symmetric(vertical: 16),
+                        backgroundColor:
+                            isSaved ? Colors.redAccent : Colors.greenAccent,
+                        padding: const EdgeInsets.symmetric(vertical: 12),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(12),
                         ),

@@ -171,6 +171,34 @@ class _ResultPageState extends State<ResultPage> {
     String formattedDate = DateFormat('yyyy-MM-dd HH:mm').format(DateTime.now().toLocal());
 
     return Scaffold(
+      extendBodyBehindAppBar: true,
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+        elevation: 0,
+        leading: Container(
+          margin: const EdgeInsets.all(8.0),
+          child: IconButton(
+            icon: const Icon(Icons.arrow_back, color: Colors.black),
+            onPressed: () {
+              Navigator.pop(context);
+            },
+          ),
+        ),
+        actions: [
+          // Flag Location Icon (Disabled if Unidentified)
+          Container(
+            margin: const EdgeInsets.all(8.0),
+            decoration: const BoxDecoration(
+              color: Colors.white,
+              shape: BoxShape.circle,
+            ),
+            child: IconButton(
+              icon: const Icon(Icons.flag, color: Colors.black),
+              onPressed: widget.result == "Unidentified" ? null : _flagAnimalSighting,
+            ),
+          ),
+        ],
+      ),
       body: Container(
         decoration: const BoxDecoration(
           gradient: LinearGradient(
@@ -244,23 +272,6 @@ class _ResultPageState extends State<ResultPage> {
                 ),
               ],
               const SizedBox(height: 24),
-
-              // Flag Button for Population Tracking (Disabled for Unidentified species)
-              ElevatedButton.icon(
-                onPressed: widget.result == "Unidentified" ? null : _flagAnimalSighting,
-                icon: const Icon(Icons.flag, color: Colors.white),
-                label: const Text("Flag Location"),
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: widget.result == "Unidentified" ? Colors.grey : Colors.orange,
-                  padding: const EdgeInsets.symmetric(vertical: 14, horizontal: 20),
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(12),
-                  ),
-                ),
-              ),
-
-              const SizedBox(height: 16),
-
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 16.0),
                 child: Column(
@@ -297,11 +308,6 @@ class _ResultPageState extends State<ResultPage> {
                           ),
                         ),
                       ),
-                    const SizedBox(height: 12),
-                    TextButton(
-                      onPressed: () => Navigator.of(context).pop(),
-                      child: const Text("Back to Camera", style: TextStyle(fontSize: 18, color: Colors.red)),
-                    ),
                   ],
                 ),
               ),
