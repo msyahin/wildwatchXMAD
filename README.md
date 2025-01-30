@@ -2,7 +2,7 @@
 
 Group member
 1. Muhammad Syahin bin Saiful Muzamir (2117563)
-2. Muhammad Zikty Adib bin Mohd Suhaimi (2112197)
+2. Muhammad Zikry Adib bin Mohd Suhaimi (2112197)
 3. Nurul Fadhilah binti Ahmad (2114152)
 
 Objective
@@ -14,8 +14,8 @@ Objective
 6. Ensure a User-Friendly Experience – Develop an intuitive and efficient interface for seamless exploration and discovery of animal species.
 
 Summary
-- Animal Trivia is an interactive app that helps users discover and learn about different animal species. Users can search for mammals, reptiles, birds, and other animals. The app also uses image recognition technology, allowing users to scan or upload pictures to identify animals easily. In addition, a geolocation API helps users check where certain animals live and their population in different areas. This app also includes fun quizzes to test knowledge about animal behaviors, habitats, and unique traits.
-With a simple and user-friendly design, Animal Trivia is a great tool for nature lovers, students, and researchers. The app makes learning about wildlife fun and easy while encouraging people to care for and protect animals. By using technology for animal identification and tracking, Animal Trivia helps users connect with nature in an exciting way.
+- WildWatch is an interactive app that helps users discover and learn about different animal species. Users can search for mammals, reptiles, birds, and other animals. The app also uses image recognition technology, allowing users to scan or upload pictures to identify animals easily. In addition, a geolocation API helps users check where certain animals live and their population in different areas. This app also includes fun quizzes to test knowledge about animal behaviors, habitats, and unique traits.
+With a simple and user-friendly design, WildWatch is a great tool for nature lovers, students, and researchers. The app makes learning about wildlife fun and easy while encouraging people to care for and protect animals. By using technology for animal identification and tracking, WildWatch helps users connect with nature in an exciting way.
 
 About this project
 - This project is continuous FYP project with one of our team member. The app's functionality is built around several core features. The main feature of the app is the ability to detect animals by scanning or uploading pictures. Using image recognition technology, users can either take a photo with their device's camera or upload an existing image, and the app will analyze it to identify the species.
